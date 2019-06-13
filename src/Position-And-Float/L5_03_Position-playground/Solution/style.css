@@ -1,0 +1,38 @@
+.viewport {
+    position: relative;
+}
+
+.card {
+    height: inherit;
+    display: block;
+    position: absolute;
+    left: 0;    
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 350px; 
+}
+
+.card > img {
+    width: inherit;
+    border-radius: 5px;
+    height: auto;
+}
+
+.card > i {
+    position: absolute;
+    padding: 0px 10px 20px 0px;
+    color: #fff;
+    bottom: 0;
+    right: 0;
+}
+
+.shadow {
+    position: absolute;
+    width: 100%;
+    min-height: 98.8%;
+    box-shadow: inset 0px 0px 20px 5px #000000;    
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+}

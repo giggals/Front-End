@@ -1,0 +1,57 @@
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif;
+    background-color:rgb(238, 238, 238);
+    margin: 3rem 7rem;
+}
+
+.site-title {
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase; 
+}
+
+.float-right-img {
+    margin: 0rem 1.5rem;
+    float:right;
+    border: rgb(0,0,0) solid 3px;
+    padding: 5px;
+}
+
+.float-right-p {
+    width: 30%;
+    height: auto;
+    float: right;
+    text-align: right;
+} 
+
+.float-right-p-text-right {
+    height: auto;
+    float: right;
+    width: 70%;
+    text-align: right;
+} 
+
+.float-left-p {
+    height: auto;
+    float:left;
+    text-align: left;
+}
+
+
+.float-left-img {
+    width: 30%;
+    float: left;
+    height: auto;
+    padding: 5px;
+    border: black solid 3px;
+    margin: 0rem 1rem 0rem 0rem;
+}
+
+.second-picture-p {
+    width: 70%;
+    float: left;
+    height: auto;
+}
+
