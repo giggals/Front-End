@@ -1,0 +1,24 @@
+html {
+    background-color: rgb(238, 238, 238);
+}
+
+body {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    background: rgb(238, 238, 238);
+}
+
+div {
+    margin: auto;
+    width: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}

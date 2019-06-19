@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    max-width: 65vw;
+}
+
+.week {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.week>span:nth-child(1) {
+    width: 100%;
+}
+
+.week>span {
+    width: 19%;
+    height: 4rem;
+}
+
+.week>span:nth-child(7) {
+    width: 98%;
+}
+
+.week>span:nth-child(8) {
+    width: 49%;
+}
+
+.week>span:nth-child(9) {
+    width: 49%;
+}
+
+span {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.notes {
+    display: flex;
+    flex-direction: column;
+}
+
+.notes>span {
+    height: 8rem;
+}
