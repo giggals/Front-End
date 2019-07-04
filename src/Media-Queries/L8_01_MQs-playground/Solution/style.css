@@ -1,0 +1,5 @@
+@media (max-width: 600px) {
+    .mq-width:after {
+        content: 'Changing width';
+    }
+}
