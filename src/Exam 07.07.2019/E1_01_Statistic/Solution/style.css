@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,400i,500,500i,700,700i&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.5 'Ubuntu';
+}
+
+.site {
+    text-align: center;
+    align-items: center;
+    height: 350px;
+    /* background-color: rgba(40, 65, 107, 0.8); */
+    max-width: 1300px;
+    background: linear-gradient(rgba(2, 0, 36, 0.80), rgba(6, 6, 102, 0.80)), url(../Requirements-and-Resources/images/image.jpg) center no-repeat;
+    position: relative;
+    margin: 5rem auto;
+}
+
+.close {
+    float: right;
+    text-align: right;
+}
+
+.close i {
+    padding: 1em;
+    color: white;
+}
+
+.contain {
+    width: 50%;
+    padding-top: 10rem;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.image {
+    position: relative;
+    flex: 0 0 100%;
+    height: auto;
+}
+
+ul {
+    display: flex;
+    flex: 0 0 80%;
+    flex-direction: row;
+    list-style: none outside;
+}
+
+li {
+    width: 200px;
+    height: 200px;
+    padding-right: 6rem;
+    flex: 0 0 30%;
+    color: white;
+    font-size: 20px;
+}
+
+.number {
+    font-weight: 700;
+}
+
+i {
+    width: 50px;
+    color: #EC8421;
+}

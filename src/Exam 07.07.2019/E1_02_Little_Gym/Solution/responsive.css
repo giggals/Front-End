@@ -1,0 +1,84 @@
+@media (max-width: 768px) {
+    .site-information {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background: radial-gradient(circle at 100% 50%, transparent 20%, rgba(255, 255, 255, .3) 21%, rgba(255, 255, 255, .3) 34%, transparent 35%, transparent), radial-gradient(circle at 0% 50%, transparent 20%, rgba(255, 255, 255, .3) 21%, rgba(255, 255, 255, .3) 34%, transparent 35%, transparent) 0 -50px;
+        background-color: #41CFCF;
+        background-size: 75px 100px;
+        color: #fff;
+        text-shadow: 1px 1px 1px rgb(122, 121, 121);
+    }
+    .site-form {
+        text-align: center;
+        background: #FF8F57;
+        opacity: 0.6;
+        padding: 4rem 2rem;
+        margin-top: 0rem;
+    }
+    .site-information-text {
+        flex: 0 0 50%;
+        padding: 3rem 2rem;
+        text-align: center;
+    }
+    .site-blog-container {
+        text-align: center;
+        padding: 4rem 2rem;
+        background: rgb(241, 241, 230);
+        margin-top: 0rem;
+    }
+    .site-posts {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .site-footer {
+        align-items: center;
+        flex-direction: column;
+    }
+    .site-navigation ul li {
+        display: none;
+    }
+    .entry-header-title {
+        font-size: 4.0rem;
+        margin-left: 4rem;
+        margin-top: 0.0rem;
+    }
+    .entry-header {
+        padding: 0rem 0 0rem 0;
+    }
+    .button {
+        margin-bottom: 2rem;
+        margin-left: 4rem;
+    }
+    .entry-header-container p {
+        padding-bottom: 0;
+        margin-left: 4rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .site-header {
+        display: flex;
+        align-items: center;
+        color: #fff;
+        background: #329A8F;
+    }
+    .entry-header {
+        border-radius: 0px;
+    }
+    .site-main {
+        margin: 0;
+    }
+    .site-information-image {
+        background: url(./images/games-picture.jpg) center center;
+        position: abolute;
+        background-size: cover;
+        flex: 0 0 47%;
+        margin: 1rem;
+    }
+    .site-logos-container {
+        display: inline-block;
+        text-align: center;
+    }
+}

@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap&subset=latin-ext');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.5 'Roboto';
+}
+
+body {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Abril Fatface';
+    font-weight: 400;
+}
+
+.banner {
+    height: 950px;
+    background: url(../Requirements-and-Resources/image/image.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.intro {
+    height: 100px;
+    width: 200px;
+    padding: 5rem;
+    width: 300px;
+    font-family: 'Abril Fatface';
+}
+
+.intro p {
+    padding: 0.3rem;
+    font-weight: 100;
+}
+
+.intro h1 {
+    border-bottom: 1.5px solid white;
+}
+
+.header-info {
+    text-align: right;
+    margin-left: auto;
+    margin-right: 2rem;
+    width: 300px;
+    color: white;
+    box-shadow: 4px 7px 12px 0px rgba(8, 8, 8, 1);
+    background: rgb(157, 138, 121);
+    background: linear-gradient(90deg, rgba(157, 138, 121, 1) 0%, rgba(224, 212, 201, 1) 43%);
+}
+
+.header-info p {
+    padding: 1.5rem;
+}
+
+.header-info i {
+    padding-top: 1.5rem;
+    padding-right: 1.5rem;
+    color: #7D7B7B;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+    max-width: 85%;
+    padding: 3.5rem;
+    background: #F2F0F3;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    max-width: 23%;
+}
+
+main h1 {
+    padding-bottom: 1.5rem;
+}
+
+main ul {
+    list-style: none outside;
+}
+
+main ul li {
+    padding-bottom: 1.5rem;
+    list-style: none outside;
+}
+
+main ul li strong {
+    padding-left: 0.8rem;
+}
+
+main ul li i {
+    color: white;
+    background: #333333;
+    border-radius: 50%;
+}
+
+aside {
+    display: flex;
+    background: #BAB1AD;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside ul li p {
+    color: white;
+    font-size: 60px;
+    font-weight: 300;
+    padding-left: 1.5rem;
+    margin-right: 3rem;
+}
+
+aside ul li:first-child {
+    padding-top: 3.5rem;
+}
+
+aside span {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+aside ul li {
+    padding-bottom: 4rem;
+    text-align: center;
+}
+
+.contact {
+    margin-top: 3rem;
+    font-size: 35px;
+    border-bottom: 2px solid black;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding-right: 1.5rem;
+}
+
+.footer ul {
+    padding: 1.5rem;
+}
+
+form {
+    display: flex;
+}
+
+form p {
+    width: 30%;
+}
+
+form p input {
+    margin-left: 2rem;
+    border-radius: 3px;
+    padding: 0.6em 6em 0.6em 0.6em;
+    background: #BAB1AD;
+    border: none;
+}
+
+form p input::placeholder {
+    color: white;
+}
+
+.button {
+    margin-left: 3rem;
+    padding: 0.6em 1.1em;
+    background: #67784D;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+.hidden {
+    visibility: hidden;
+}
