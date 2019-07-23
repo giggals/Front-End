@@ -1,0 +1,30 @@
+section {
+    border: 1.5px solid var(--yellow-color);
+    border-radius: 5px;
+    display: flex;
+    max-width: 70%;
+    margin: 5rem auto;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    padding-right: 5em;
+    list-style: none;
+}
+
+.button {
+    border: none;
+    background: var( --yellow-color);
+    border-radius: 3px;
+    padding: 0.5em 1.2em;
+    color: var(--white-color);
+    font-weight: 700;
+}
+
+.button:hover {
+    background: var( --primary-color);
+    color: var(--yellow-color);
+}

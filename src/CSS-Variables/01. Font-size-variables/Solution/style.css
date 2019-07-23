@@ -1,0 +1,21 @@
+@import url(./variables.css);
+body {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+}
+
+p {
+    font-size: var(--biggest-heading);
+}
+
+h1 {
+    font-size: var(--biggest-heading);
+}
+
+h3 {
+    font-size: var(--smaller-heading);
+}
