@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.grid-container {
+    grid-gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "item1 item1 item1" "item2 item2 item3" "item4 item4 item4";
+}
+
+.item1 {
+    grid-area: item1;
+}
+
+.item2 {
+    grid-area: item2;
+}
+
+.item3 {
+    grid-area: item3;
+}
+
+.item4 {
+    grid-area: item4;
+}
+
+.grid-container>div {
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+
+@media screen and (max-width:1024px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-areas: "item1" "item2" "item3" "item4";
+    }
+}
